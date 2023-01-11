@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ohmyfood!</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!--Header penser a mettre en display block toute la page-->
+
+    <div id="loading"></div>
+    <div class="main">
+    <header class="header row">
+        <div class="row bloc100 mt10">
+        <h1 class="center"><img class="logo" id="logo" src="./image/ohmyfoodlogo.png" alt="Logo"></h1>
+        </div>
+    </header>
+<main class="mb-10">
+    <section class="row lieu bg-grey1 mt0 mb0 bordtop">
+        <div class="lieu row">
+            <i class="fa-solid fa-location-dot"></i>
+            <p class="strong">Paris, Belleville</p>
+        </div>
+    </section>
+
+    <!--Intro-->
+    <section class="pub1 bg-grey2 mt0 row">
+        <div class="center row column mb50">
+        <h2 class="mt20 mb0 center aligned">Réservez le menu qui<br>vous convient</h2>
+        <p class="mt10 aligned grey thin"> Découvrez des restaurants d'exception,<br> séléctionnés par nos soins.</p>
+            <div class="center">
+            <button class="mt20 gradient br-50 strong">Explorer nos restaurants</button> 
+            </div>
+        </div>
+    </section>
+    
+    <!-- Utilisation du site-->
+    <section class="explain">
+        <div class="bloc100 ">
+            <h2 class="m20">Fonctionnement</h2>
+            <div class="mb50">
+                <div class="bloc85 bg-grey3 br-20 row fonctionnement center mb20">
+                    <p class="functioNumb">1</p>
+                    <i class="fa-solid fa-mobile-screen-button grey "></i>
+                    <p class="pl20 strong">Choisissez un restaurant</p>
+                </div>
+                <div class="bloc85 bg-grey3 br-20 row fonctionnement center mb20">
+                    <p class="functioNumb">2</p>
+                    <i class="fa-solid fa-list-ul grey"></i>
+                    <p class="pl20 strong"> Composez votre menu</p> 
+                </div>
+                <div class="bloc85 bg-grey3 br-20 row fonctionnement center mb20 bg-purp">
+                    <p class="functioNumb">3</p>
+                    <i class="fa-solid fa-store purple"></i> 
+                    <p class="pl20 strong"> Dégustez au restaurant</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Restaurants x4-->
+    <section class="bloc100 bg-grey3" id="Restaurants">
+        <div class="p20">
+            <div class="bloc100 p10">
+                <h2>Restaurants</h2>
+                <div class="md-bloc100 row2">
+                    <div class="bloc100 md-p10 md-bloc50 "> 
+                        <div class="row2">
+                            <div class="bloc100 br-20 card bg-white ">
+                                <a href="/ohmyfood/La_palette_du_goût.html" style="color:black">
+                                    <div class="newbox">
+                                        <p class="card__badge">Nouveau</p>
+                                    </div>
+                                <img class="index-1" src="/ohmyfood/image/Palette_du_gout.jpg" alt="'Restaurant 'La palette du goût'">
+                                    <div class="card-body">
+                                    <h3>La palette du goût</h3>
+                                    <p class="thin">Ménilmontant</p>
+                                    <i class="fa-regular fa-heart "></i>
+                                    <i class="fa-solid fa-heart"></i>
+                                    </div>
+                                </a>
+                            </div>  
+                        </div>
+                    </div>
+
+                        <div class="mt20 md-bloc50 md-nomr md-p10 md-mr0">
+                            <div class="bloc100 br-20 card bg-white">
+                                <a href="/ohmyfood/La_note_enchantée.html" style="color:black">
+                                    <div class="newbox">
+                                        <p class="card__badge">Nouveau</p>
+                                    </div>
+                                <img src="/ohmyfood/image/Note_enchantée.jpg" alt="'Restaurant 'La note enchantée'">
+                                <div class="card-body">
+                                    <h3>La note enchantée</h3>
+                                    <p class="thin">Charonne</p>
+                                    <i class="fa-regular fa-heart"></i>
+                                    <i class="fa-solid fa-heart"></i>
+                                </div>
+                                </a>
+                            </div>  
+                        </div>
+                </div>
+                <div class="md-bloc100 row2">
+                    <div class="mt20 md-bloc50 md-p10">
+                        <div class="bloc100 br-20 card bg-white">
+                            <a href="/ohmyfood/A_la_francaise.html" style="color:black">
+                            <img src="/ohmyfood/image/a_la_francaise.jpg" alt="'Restaurant 'A la francaise'">
+                            <div class="card-body">
+                                <h3>À la française</h3>
+                                <p class="thin">Cité Rouge</p>
+                                <i class="fa-regular fa-heart"></i>
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+                            </a>
+                        </div>  
+                    </div>
+
+                    <div class="mt20 md-bloc50 md-p10">
+                        <div class="bloc100 br-20 card bg-white ">
+                            <a href="/ohmyfood/Le_délice_des_sens.html" style="color:black">
+                            <img src="/ohmyfood/image/délice_des_sens.jpg" alt="'Restaurant 'Le délice des sens'">
+                            <div class="card-body">
+                                <h3>Le délice des sens</h3>
+                                <p class="thin">Folie-Méricourt</p>
+                                <i class="fa-regular fa-heart iconecoeur"></i>
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+                            </a>
+                        </div>  
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+</main>
+<footer class="footer bg-grey4 mt0 pl10">
+    <h3 class="mt0">Ohmyfood</h3>
+    <a href="#">
+        <div class="row">
+            <i class="fa-solid fa-utensils"></i>
+            <p>Proposer un restaurant</p>
+        </div>
+    </a>
+    <a href="#">
+        <div class="row">
+            <i class="fa-solid fa-handshake-angle"></i>
+            <p>Devenir Partenaire</p>
+        </div>
+    </a>
+    <a href="#">
+        <p>Mentions légales</p>
+    </a>
+    <a href="mailto:ohmyfood.contact@support.com">
+        <p>Contact</p>
+    </a>
+</footer>
+</div>
+</body>
+
+
+</html>
